@@ -316,30 +316,7 @@ public class Practical7 {
  }
  }
 }
-Output:
-Multiplication table for 1:
-1 * 1 = 1
-1 * 2 = 2
-1 * 3 = 3
-1 * 4 = 4
-1 * 5 = 5
-1 * 6 = 6
-1 * 7 = 7
-1 * 8 = 8
-1 * 9 = 9
-1 * 10 = 10
-Multiplication table for 2:
-2 * 1 = 2
-2 * 2 = 4
-2 * 3 = 6
-2 * 4 = 8
-2 * 5 = 10
-2 * 6 = 12
-2 * 7 = 14
-2 * 8 = 16
-2 * 9 = 18
-2 * 10 = 20
-... (Output continues for tables 3 to 15)
+
 
 
 
@@ -408,16 +385,9 @@ public class Practical8 {
  scanner.close();
  }
 }
-Output:
-Enter the radius of the cone: 5
-Enter the height of the cone: 12
-Enter the slant height of the cone: 13
-Area of the cone: 282.7433388230814
-Volume of the cone: 314.1592653589793
-Enter the radius of the cylinder: 4
-Enter the height of the cylinder: 10
-Area of the cylinder: 351.8583772020571
-Volume of the cylinder: 502.6548245743669
+
+
+
 
 
 
@@ -470,11 +440,7 @@ public class Practical9 {
  scanner.close();
  }
 }
-Output:
-Enter the radius of the circle: 7
-Area of the circle: 153.93804002589985
-Enter the radius of the sphere: 6
-Area of the sphere: 452.38934211693025
+
 
 
 
@@ -546,15 +512,7 @@ public class Practical10 {
  scanner.close();
  }
 }
-Output:
-Enter the continent: Asia
-Enter the country: India
-Enter the state: Maharashtra
-Enter the place: Mumbai
-Continent: Asia
-Country: India
-State: Maharashtra
-Place: Mumbai
+
 
 
 
@@ -618,27 +576,11 @@ public class Practical11 {
  generator.start();
  }
 }
-Output:
-Generated Number: 45
-Cube of 45 is: 91125
-Generated Number: 22
-Square of 22 is: 484
-Generated Number: 81
-Cube of 81 is: 531441
-Generated Number: 16
-Square of 16 is: 256
-Generated Number: 7
-Cube of 7 is: 343
-Generated Number: 92
-Square of 92 is: 8464
-Generated Number: 63
-Cube of 63 is: 250047
-Generated Number: 30
-Square of 30 is: 900
-Generated Number: 59
-Cube of 59 is: 205379
-Generated Number: 4
-Square of 4 is: 16
+
+
+
+
+
 
 
 
@@ -746,24 +688,11 @@ employeeNames.listIterator(employeeNames.size());
  scanner.close();
  }
 }
-Output:
-Enter the number of employees: 3
-Enter the names of the employees:
-John Doe
-Jane Smith
-Peter Jones
-Displaying names using Iterator:
-John Doe
-Jane Smith
-Peter Jones
-Displaying names using ListIterator (forward):
-John Doe
-Jane Smith
-Peter Jones
-Displaying names using ListIterator (backward):
-Peter Jones
-Jane Smith
-John Doe
+
+
+
+
+
 
 
 
@@ -813,18 +742,11 @@ public class Practical14 {
  scanner.close();
  }
 }
-Output:
-Enter the number of employees: 3
-Enter the employee details (name and salary):
-Enter employee name: John Doe
-Enter employee salary: 50000
-Enter employee name: Jane Smith
-Enter employee salary: 60000
-Enter employee name: Peter Jones
-Enter employee salary: 60000
-Employees with the maximum salary:
-Jane Smith
-Peter Jones
+
+
+
+
+
 
 
 
@@ -865,11 +787,16 @@ allowed
  scanner.close();
  }
 }
-Output:
-Enter employee name: John123
-Exception: Name is invalid
-Enter employee name: John Doe
-Employee name: John Doe
+
+
+
+
+
+
+
+
+
+
 Practical No. 16: Write a multithreading program in Java to display all vowels from a
 given string.(use thread class)
 Program:
@@ -900,9 +827,6 @@ class VowelThread extends Thread {
  return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u';
  }
 }
-Output:
-Vowels in the string: e E e o e o a e ou
-
 
 
 
@@ -955,16 +879,9 @@ class MyThread extends Thread {
  System.out.println(getName() + " - Dead");
  }
 }
-Output:
-Thread-2 - Created
-Thread-3 - Created
-Thread-1 - Created
-Thread-3 - Slept for 1914 ms
-Thread-3 - Dead
-Thread-2 - Slept for 3267 ms
-Thread-2 - Dead
-Thread-1 - Slept for 4125 ms
-Thread-1 - Dead
+
+
+
 
 
 
@@ -995,13 +912,10 @@ public class Practical18 {
  System.out.println("Priority: " + currentThread.getPriority());
  }
 }
-Output:
-Original Thread Details:
-Name: main
-Priority: 5
-Modified Thread Details:
-Name: MyThread
-Priority: 2
+
+
+
+
 
 
 
@@ -1050,22 +964,10 @@ class MyThread1 extends Thread {
  resource.display(getName());
  }
 }
-Output:
-Thread: Thread-1 - Count: 1
-Thread: Thread-1 - Count: 2
-Thread: Thread-1 - Count: 3
-Thread: Thread-1 - Count: 4
-Thread: Thread-1 - Count: 5
-Thread: Thread-2 - Count: 1
-Thread: Thread-2 - Count: 2
-Thread: Thread-2 - Count: 3
-Thread: Thread-2 - Count: 4
-Thread: Thread-2 - Count: 5
-Thread: Thread-3 - Count: 1
-Thread: Thread-3 - Count: 2
-Thread: Thread-3 - Count: 3
-Thread: Thread-3 - Count: 4
-Thread: Thread-3 - Count: 5
+
+
+
+
 
 
 
@@ -1100,9 +1002,8 @@ class AlphabetThread extends Thread {
  }
  }
 }
-Output:
-(After a 3-second delay)
-A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+
+
 
 
 
@@ -1149,7 +1050,6 @@ web.xml file :-
  <servlet-name>HitCount</servlet-name>
  <url-pattern>/hit</url-pattern>
 </servlet-mapping>
-Output:
 
 
 
@@ -1173,11 +1073,13 @@ user.jsp file :-
  session.setAttribute("user",un);
  response.sendRedirect("pass.html");
 %>
+ 
 pass.html file :-
 <form method='post' action='pass.jsp'>
 Password:<input type='password' name='pass'><br>
 <input type='submit'><input type='reset'>
 </form>
+ 
 pass.jsp file :-
 <%
  String pass = request.getParameter("pass");
@@ -1187,6 +1089,7 @@ pass.jsp file :-
  else
  response.sendRedirect("fail.html");
 %>
+ 
 success.html file:-
 <body bgcolor='green'>
 <h1>Login Successful.</h1>
@@ -1195,8 +1098,7 @@ fail.html file:-
 <body bgcolor='red'>
 <h1>Login Failed.</h1>
 </body>
-Output:
-If user name password are not same:-
+
 
 
 
@@ -1207,11 +1109,13 @@ If user name password are not same:-
 Practical No. 23: Write a JSP program to accept user name in a TextBox and greet the user
 according to the time on server machine.
 Program:
+
 greet.html file:-
 <form method='post' action='greet.jsp'>
 User Name:<input type='text' name='uname'>
 <input type='submit'>
 </form>
+
 greet.jsp file:-
 <%@page import="java.util.*"%>
 <%
@@ -1234,7 +1138,6 @@ Good evening
  }
 %>
 <%=" "+uname%>
-Output:
 
 
 
@@ -1263,7 +1166,8 @@ number.jsp file:-
  }
 %>
 </font>
-Output:
+
+
 
 
 
@@ -1302,7 +1206,6 @@ armstrong.jsp.file:-
  return s==n1;
  }
 %>
-Output:
 
 
 
@@ -1331,4 +1234,3 @@ age_check.jsp file:-
  else
  out.print(name+" you are not eligible for voting");
 %>
-Output:
